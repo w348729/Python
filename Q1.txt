@@ -1,0 +1,9 @@
+1.just deal with the order as normal
+
+2. save the addrees in a file ,so this customer can pick address every time he come.
+
+3. assgin a small team(maybe 5- 10 persons) to for his orders.  allocate a place from warehous or a room for to
+store his goods. set up a file fot the address record.
+
+usually many courier compant has ERP system to manage their orders,for customers like the 3rd 
+one, they will save all the address he used and try to contact him in the morning to get perpared for hi orders.
