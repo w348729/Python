@@ -154,22 +154,22 @@ class Deque:
 
     def size(self):
         return len(self.items) 
- 8. user Deque to check reverse chart
-    def palchecker(aString):
-        chardeque = Deque()
+8. user Deque to check reverse chart
+def palchecker(aString):
+    chardeque = Deque()
 
-        for ch in aString:
-            chardeque.addRear(ch)
+    for ch in aString:
+        chardeque.addRear(ch)
 
-        stillEqual = True
+    stillEqual = True
 
-        while chardeque.size() > 1 and stillEqual:
-            first = chardeque.removeFront()
-            last = chardeque.removeRear()
-            if first != last:
-                stillEqual = False
+    while chardeque.size() > 1 and stillEqual:
+        first = chardeque.removeFront()
+        last = chardeque.removeRear()
+        if first != last:
+            stillEqual = False
 
-        return stillEqual
+    return stillEqual
 
-    print(palchecker("lsdkjfskf"))
-    print(palchecker("radar"))
+print(palchecker("lsdkjfskf"))
+print(palchecker("radar"))
